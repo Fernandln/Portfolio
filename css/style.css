@@ -89,4 +89,145 @@ img {
 
 .experiencia-texto {
     font-size: 24px;
+    margin-bottom: 60px;
+    color: #525252;
+    max-width: 50ch;
+
+}
+
+.subtitulo {
+    font-size: 144px;
+    text-transform: uppercase;
+    max-width: 4ch;
+    word-break: break-all;
+    line-height: 200px;
+    letter-spacing: -15px;
+}
+
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    background-color: #e9e9e933;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+.empresa-ano {
+    text-align: right;
+    color: #525252;
+    font-size: 14px;
+    background-color: #3f2222;
+}
+
+.empresa-titulo {
+    font-size: 18px;
+}
+
+.empresa-texto{
+    font-size: 14px;
+    color: #525252;
+    font-weight: bold; 
+
+}
+/* formação */
+.formacao{
+    background-color: #141414;
+    color: #ffffff;
+
+}
+.formacao-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.formacao .subtitulo{
+    color: #000000;
+    max-width: 5ch;
+    
+}
+
+
+.formacao-texto {
+    font-size: 24px;
+    max-width: 40ch;
+    color: #a3a3a3a3;
+    margin-bottom: 60px;
+}
+.faculdade-lista {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.faculdade {
+    flex: 1;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.faculdade-tipo {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #a3a3a3a3;
+    margin-bottom: 10px;
+}
+
+.faculdade-curso{
+    font-size: 18px;
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+.faculdade-instituicao{
+    font-size: 18px;
+    color: #a3a3a3a3;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px 60px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.footer-texto{
+    font-size: 24px;
+    color: #cccccc;
+
+}
+
+.footer-contato{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+.footer-contato li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-copy {
+    font-size: 20px;
+    color: #8f8f8f;
+
 }
